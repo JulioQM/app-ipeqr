@@ -8,8 +8,7 @@ import 'sample.dart';
 
 class ArViewState extends State<ArViewWidget> with WidgetsBindingObserver {
   ArchitectWidget architectWidget;
-  String wikitudeTrialLicenseKey =
-      "GvkkJKekZacESYETQWir7QWM/fIKGLhTJ4/fsbBCwd6NUr9bCccLOAlV4cJZV+/5L3NbB5jtZExM3RHfyQ6lFKOZJAjaxNYApKb8WQNVjyu4m8MM/JCuwFE0iYb7cW7lED+Sjv+LlPOefB91ht50+YQbdrXoeoEDFvoTP4QdQFpTYWx0ZWRfX5sggRbTWl62xizUburTEJ8SIBSZFpFvqz2iWKgEFZWJv/I1eGh7d3DgJmo3d+Z3CMK5irMYdCpy8PK8bCfPVd7AZKvCjVV10joD3f/IJ/wdawCgWfH8MlUL3h9MctZ9qtxzqkmlyhykm1BBkOdonyctdIrsX5iP7GwdqV7lGuL3Ptyu+dAF192xkxeqywruILnN9xJgct1d63eG0qsJDw+GH2uK+jmGs1kuC2MJkznuF/g7FsCpthYP0DIsPZ109XKYjz2zuNFHLLNCKNnEuCpbrKnHqQA4ReSu1sihBfr2SyrOGm4AxPPrCAvwSE06Tet39zrhaip21BWGmR4xejYBUz/EARniQhqvxnfOPJYdV4zpcwtv07cHoEGXdbl6fwuQLf5/Af827pO5XjqHxYXfVsKe189285MsY0ConUhZfT+3UjiWaHNOOl+voXZY5LLckR26q2L66boalYLMS8/+fnwrHN6E4D74r4mL8+pmq5aB+N7tj+Vrjsryv+m1+H8RQmEbbkWy9cqzDBOYTqE1UVCPo2rvyC3Z1vTvoWIku3HCoBp4QiVZo2MHBTy0NZaowqlTQVwI92/qADJ0TBG2sKpr3AmEGZh4Op8nj+F7aU1TFLm0c2ElUJYgPJdx/mgf0otSNVo+";
+  String wikitudeTrialLicenseKey = "";
 
   Sample sample;
   String id;
