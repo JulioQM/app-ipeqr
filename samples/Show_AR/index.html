@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+
+    <!--  basic meta information -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="application/json; charset=utf-8">
+    <!-- disables pinch-scaling of the webview, so that gestures only do what they're supposed to -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+
+    <title></title>
+
+    <script src="https://www.wikitude.com/libs/architect.js"></script>
+    <script type="text/javascript" src="../ade.js"></script>
+
+    <!-- marker representation-->
+    <script src="js/marker.js"></script>
+
+    <!-- World logic-->
+    <script type="text/javascript" src="js/presentingdetails.js"></script>
+
+    <link rel="stylesheet" href="css/default.css" />
+
+</head>
+
+<body>
+    <div id="loadingMessage" class="info">Cargando.... </div>
+    <!--  <div id="footer">
+        <div id="popupButton">
+            <img id="popupButtonImage" src="assets/warning_icon.png" />
+            <span id="popupButtonTooltip">Trying to find out where you are</span>
+        </div>
+    </div> -->
+
+    <div id="panelPoiDetail">
+        <div class="header">
+            <button class="closeButton" onClick="World.closePanel()">Cerrar</button>
+            <h3 class="headerTitle">Datos personales</h3>
+        </div>
+        <div class="content">
+            <p class="colors">Nombres:
+                <a class="colorsBlack" id="poiDetailNombre"></a>
+            </p>
+            <p class="colors">Apellidos:
+                <a class="colorsBlack" id="poiDetailApellido"></a>
+            </p>
+            <p class="colors">Cédula:
+                <a class="colorsBlack" id="poiDetailCedula"></a>
+            </p>
+            <p class="colors">Genero:
+                <a class="colorsBlack" id="poiDetailGenero"></a>
+            </p>
+            <p class="colors">Residencia:
+                <a class="colorsBlack" id="poiDetailCiudad"></a>
+            </p>
+            <p class="colors">Direccion:
+                <a class="colorsBlack" id="poiDetailDireccion"></a>
+            </p>
+            <p class="colors">Enfermedad:
+                <a class="colorsBlack" id="poiDetailEnfermedad"></a>
+            </p>
+
+        </div>
+        <div class="contentFamil">
+            <div class="headerFamil">
+                <h3 class="headerTitleFamil">Datos Familiares</h3>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th id="izquierda" class="colors">Nombres</th>
+                        <th id="izquierda" class="colors">Celular</th>
+                        <th class="colors">Llamar</th>
+                    </tr>
+                </thead>
+                <tbody id="data">
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</body>
+
+</html>
